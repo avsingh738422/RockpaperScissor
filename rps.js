@@ -14,7 +14,7 @@ function counterPlay(){
 }
 
 function gameRound(){
-  let computerSelection = "scissor";
+  let computerSelection = counterPlay();
   let playerSelection = "rock";// yet to decide how to get player input;
   let result;
   if(playerSelection == computerSelection){
